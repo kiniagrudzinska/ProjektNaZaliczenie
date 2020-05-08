@@ -108,13 +108,18 @@ a:hover, a:active {
   background-color: red;
 }
 div.box1{
-
-    width: 50%;
+border-style: solid;
+border-color: #009900;
+ margin-left: 100px;
+ margin-top: 200px;
+background-color: white;
+    width: 40%;
     float: left;
     text-align: center;
-    padding: 50px 10px 10px 50px;
+    padding: 50px 10px 50px 10px;
     box-sizing: border-box;
-    font-family: Century Gothic,sans-serif; 
+    font-family: Century Gothic,sans-serif;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
 
 }
 div.box2{
@@ -122,9 +127,143 @@ div.box2{
     width: 50%;
     float: right;
     text-align: center;
-    padding: 50px 50px 10px 10px;
+    padding: 160px 50px 10px 10px;
     box-sizing: border-box;
     font-family: Century Gothic,sans-serif; 
     
 }
 
+div.tekscik1 {
+
+font-family: Century Gothic;
+ font-size: xx-large;
+ color: black;
+text-shadow: 2px 2px 5px green;
+}
+
+
+div.tekscik2 {
+
+ font-size: x-large;
+color: black;
+font-family: Century Gothic;
+text-shadow: 2px 2px 5px WHITE;
+}
+
+div.tekscik3 {
+
+ font-size: large;
+font-family: Century Gothic;
+color: black;
+text-shadow: 2px 2px 5px #4CAF50;
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 40%;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+  
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+img.slide{
+
+  width: 500px;
+  height: 500px;
+
+}
