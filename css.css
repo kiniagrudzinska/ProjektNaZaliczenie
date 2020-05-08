@@ -1,0 +1,130 @@
+body {
+
+    background-image:url("https://i.imgur.com/81n8EVO.jpg");
+    background-repeat: no-repeat;
+    background-color:white;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    letter-spacing: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+
+}
+
+header{
+
+    font-family: Century Gothic,sans-serif; 	
+    
+    
+}
+
+div.header {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    padding-left: 60px;
+    text-align: left;
+    background-color: white;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+}
+h1{
+
+width: 150%;
+
+}
+  img.logo{
+height: 100px;
+width: 200px;
+}
+
+div.social{
+float:right;
+    
+    color: white;
+    text-align: left;
+   padding-top: 50px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-left: 1px;
+}
+
+div.social a{
+
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    
+}
+    
+    div.social a:hover {
+    color: black;
+
+}
+
+
+  div.bottom{
+float:right;
+    width: 85%;
+    color: white;
+    text-align: left;
+   padding-top: 50px;
+    padding-bottom: 1px;
+    padding-right: 20px;
+    padding-left: 1px;
+
+}
+div.bottom a{
+
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: left;
+    color: black;
+    
+}
+    
+    div.bottom a:hover {
+    background-color: rgba(0,0,0,.15);
+    color: black;
+
+}
+
+a:link, a:visited {
+  background-color: #EEEEEE;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+div.box1{
+
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 50px 10px 10px 50px;
+    box-sizing: border-box;
+    font-family: Century Gothic,sans-serif; 
+
+}
+div.box2{
+
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 50px 50px 10px 10px;
+    box-sizing: border-box;
+    font-family: Century Gothic,sans-serif; 
+    
+}
+
